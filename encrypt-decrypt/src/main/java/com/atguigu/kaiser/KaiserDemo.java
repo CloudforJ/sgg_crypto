@@ -11,7 +11,7 @@ public class KaiserDemo {
         System.out.println("明文是： " + plaintext);
     }
 
-    private static String decrypted(String input, int key) {
+    static String decrypted(String input, int key) {
         char[] chars = input.toCharArray();
         StringBuilder sb = new StringBuilder();
         for (char c : chars) {
@@ -23,7 +23,7 @@ public class KaiserDemo {
         return sb.toString();
     }
 
-    private static String encrypted(String input, int key) {
+    static String encrypted(String input, int key) {
         char[] chars = input.toCharArray();
         StringBuilder sb = new StringBuilder();
         for (char c : chars) {
