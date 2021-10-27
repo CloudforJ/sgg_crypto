@@ -1,6 +1,10 @@
 package com.atguigu.bytebit;
 
 public class ByteBitDemo {
+    /**
+     * @param args
+     * @throws Exception
+     */
     public static void main(String[] args) throws Exception {
         /**
          * utf-8 一个中文对应三个字节
